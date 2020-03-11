@@ -35,7 +35,7 @@ You can capture the actual error message with `as`
 ### Errors and Exceptions
 This is when the code actually breaks or stops. 
 
-####Raise
+#### Raise
 THis keyword is used to raise an exception
 
 #### Try: except: finally
