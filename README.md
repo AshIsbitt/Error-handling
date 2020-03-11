@@ -16,4 +16,24 @@ Assume your code will always break. Make sure you handle the errors correctly
 
 When you handle errors, your code will continue 
 
+### Best Practices
+You never want to handle all errors in one go because it can create unstoppable code. Always specify which error you're handling.
+
+```python
+try:
+    file = open('order.txt')
+except FileNotFoundError as errmsg:
+    print("THERE HAS BEEN AN ERROR")
+```
+
+#### Capture messages
+You can capture the actual error message with `as`
+
+
 ## Definitions
+
+### Errors and Exceptions
+This is when the code actually breaks or stops. 
+
+####Raise
+THis keyword is used to raise an exception
